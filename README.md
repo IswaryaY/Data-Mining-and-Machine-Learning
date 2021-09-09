@@ -2,7 +2,7 @@
 # PERFORMANCE OF DIFFERENT MACHINE LEARNING METHODS IN THREE DATASETS
 
 
-[![N|Solid](https://www.nag.com/sites/default/files/styles/banner/public/2020-08/machine-learning.jpeg?itok=4WFu3LAS)
+![N|Solid](https://www.nag.com/sites/default/files/styles/banner/public/2020-08/machine-learning.jpeg?itok=4WFu3LAS)
 
 This project describes that how three different datasets such as chess game, used cars and a job change of Data Scientists are performed using various machine learning algorithms.The machine learning techniques used in the three datasets are Random forest, Decision tree, Xgbboost (eXtreme Gradient Boosting), and KNN (K-Nearest Neighbours). It explains the machine learning models by training the model with datasets which are cleaned, processed, transformed, analyzed and best features are selected to fit the model. For different approaches, two classification problems and one regression problem are taken to solve. The Dataset 1- chess game is a classification problem, which has multi class that which player will win the game, either White, Black or the game is Draw. The Dataset 2- Used Cars is a regression problem, in that price of the used cars will be predicted by using the relevant features of the cars such as manufacturer, color, condition, year of manufacturing etc., The Dataset 3- A job change of Data Scientists is also a classification problem, which is about the candidates who applied for Data Scientist position. The prediction will be whether the candidate leaves the job or not, after attending the training in the company.
 
@@ -46,33 +46,40 @@ Missing values, Label encoding, and Correlation
 #### DATASET 1: CHESS GAME
 ##### Model 1
 Random Forest
+
 The Random Forest Classifier model has the accuracy of 0.6612662013958126.The F1 score is 0.75, which is a good score that it means the model is fitted well.
 
 ##### Model 2
 XGB BOOST CLASSIFIER
+
 The XGB Boost Classifier model has the accuracy of 0.665.The F1 score is 0.76, which is a good score that it means the model is fitted well.
 
 #### DATASET 2: Used Cars
 ##### Model 1
 Decision Tree
+
 The R square value is 0.49754096786136004
 
 ##### Model 2
 Decision Tree Regressor
+
 The Rsquare value is 0.5092248866079689
 
 #### DATASET 3: A Job change of Data Scientist
 ##### Model 1
 XGB Boost
+
 The Rsquare value is 0.7785507246376812.The F1 Score is 0.73, which is good score for the 
 model.
 
 ##### Model 2
 Random Forest
+
 The R square value is 0.7794202898550725. The F1 Score is 0.72, which is good score for the model.
 
 ##### Model 3
 KNN MODEL
+
 The R square value is 0.7892753623188405.The F1 score is 0.76, which is a better score compared to the two models.
 
 
